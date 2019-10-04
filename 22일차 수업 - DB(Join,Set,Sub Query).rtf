@@ -1,0 +1,861 @@
+{\rtf1\ansi\ansicpg949\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fnil\fcharset129 NanumMyeongjo;\f1\fnil\fcharset129 NanumMyeongjoBold;}
+{\colortbl;\red255\green255\blue255;\red102\green151\blue104;\red115\green158\blue202;\red204\green204\blue204;
+\red158\green158\blue158;\red238\green204\blue100;\red193\green170\blue108;\red202\green197\blue128;\red192\green192\blue192;
+\red115\green158\blue202;\red158\green158\blue158;\red238\green204\blue100;}
+{\*\expandedcolortbl;;\csgenericrgb\c40000\c59216\c40784;\csgenericrgb\c45098\c61961\c79216;\csgenericrgb\c80000\c80000\c80000;
+\csgenericrgb\c61961\c61961\c61961;\csgenericrgb\c93333\c80000\c39216;\csgenericrgb\c75686\c66667\c42353;\csgenericrgb\c79216\c77255\c50196;\csgenericrgb\c75294\c75294\c75294;
+\csgenericrgb\c45098\c61961\c79216;\csgenericrgb\c61961\c61961\c61961;\csgenericrgb\c93333\c80000\c39216;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14580\viewh18540\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 22\'c0\'cf\'c2\'f7\
+\
+** \'b8\'c5\'c5\'b2\'c5\'e4\'bd\'c3 \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'bf\'a1\'b4\'c2 \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'b0\'a1 \'bc\'b3\'c4\'a1\'b0\'a1 \'be\'c8\'b5\'ca\
+\
+=> \'b8\'c5\'c5\'b2\'c5\'e4\'bd\'c3 \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'bf\'a1 \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'b8\'a6 \'bc\'b3\'c4\'a1\'c7\'cf\'b0\'ed\'c0\'da \'c7\'cf\'b8\'e9 \'b0\'a1\'bb\'f3\'c8\'ad \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'bb \'c0\'cc\'bf\'eb\
+\'b0\'a1\'bb\'f3\'c0\'b8\'b7\'ce \'c7\'f6\'c0\'e7 \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'bf\'a1 \'b4\'d9\'b8\'a5 \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'b8\'a6 \'bc\'b3\'c4\'a1\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9.\
+\'b0\'a1\'bb\'f3\'c0\'b8\'b7\'ce \'bc\'b3\'c4\'a1\'c7\'cf\'c1\'f6 \'be\'ca\'b0\'ed \'b5\'e0\'be\'f3 \'ba\'ce\'c6\'c3(\'c7\'cf\'b3\'aa\'c0\'c7 \'c4\'c4\'c7\'bb\'c5\'cd\'bf\'a1 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'b8\'a6 \'bc\'b3\'c4\'a1)\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'b5\'b5 \'b0\'a1\'b4\'c9\
+\'b8\'c5\'c5\'b2\'c5\'e4\'bd\'c3\'bf\'a1 \'c0\'a9\'b5\'b5\'bf\'ec\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed\'c0\'da \'c7\'cf\'b8\'e9 \'c6\'d0\'b7\'af\'b7\'b2\'c1\'ee\'b8\'a6 \'bc\'b3\'c4\'a1\'c7\'cf\'b0\'ed \'c6\'d0\'b7\'af\'b7\'b2\'c1\'ee \'be\'c8\'bf\'a1 \'c0\'a9\'b5\'b5\'bf\'ec\'c1\'ee\'b8\'a6 \'bc\'b3\'c4\'a1\'c7\'d8\'bc\'ad \'bb\'e7\'bf\'eb\
+\'b0\'a1\'bb\'f3\'c8\'ad \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'b8\'b7\'ce \'c0\'af\'b8\'ed\'c7\'d1 \'b0\'cd\'c0\'ba VMWare \'b0\'a1 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'c3\'d6\'b1\'d9\'bf\'a1\'b4\'c2 Docker(\'b0\'a1\'bb\'f3\'c8\'ad \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca)\'b8\'a6 \'b8\'b9\'c0\'cc \'c0\'cc\'bf\'eb\
+\'b0\'a1\'bb\'f3\'c8\'ad\'b8\'a6 \'c0\'cc\'bf\'eb\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d8\'c1\'f8\'b0\'cd\'c0\'ba \'c7\'cf\'b5\'e5\'bf\'fe\'be\'ee\'b0\'a1 \'ba\'f1\'be\'e0\'c0\'fb\'c0\'b8\'b7\'ce \'b9\'df\'c0\'fc\'c7\'df\'b1\'e2 \'b6\'a7\'b9\'ae\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+** \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'bf\'a1\'bc\'ad \'bf\'f8\'b0\'dd\'c0\'b8\'b7\'ce \'c1\'a2\'bc\'d3\
+\
+=> \'bf\'c0\'b6\'f3\'c5\'ac\'bf\'a1 \'c1\'a2\'bc\'d3\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'c7\'ca\'bf\'e4\'c7\'d1 \'c1\'a4\'ba\'b8\
+1. \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'c0\'c7 IP\'b3\'aa \'b5\'b5\'b8\'de\'c0\'ce : 192.168.0.13(\'bf\'c0\'b4\'c3 \'c1\'a2\'bc\'d3\'c7\'d2 \'c1\'d6\'bc\'d2)\
+2. \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'c0\'c7 \'c6\'f7\'c6\'ae\'b9\'f8\'c8\'a3 : 1521\
+3. \'bf\'c0\'b6\'f3\'c5\'ac \'bc\'ad\'b9\'f6\'c0\'c7 SID \'b6\'c7\'b4\'c2 Service Name : SID \'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba \'c0\'cc\'b8\'a7\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'b0\'b3\'b3\'e4\'c0\'cc\'b0\'ed\
+Service Name \'c0\'ba \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'b0\'a1 \'bf\'ee\'bf\'b5\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'bc\'ad\'ba\'f1\'bd\'ba \'c0\'cc\'b8\'a7 - Oracle 12c\'b1\'ee\'c1\'f6\'b4\'c2 SID\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'df\'b4\'c2\'b5\'a5 18c\'ba\'ce\'c5\'cd\'b4\'c2 Service Name\'c0\'c7 \'b0\'b3\'b3\'e4\'c0\'bb \'c0\'cc\'bf\'eb\
+xe\'b6\'f3\'b4\'c2 SID\
+4. \'b0\'e8\'c1\'a4(account)\'b0\'fa \'ba\'f1\'b9\'d0\'b9\'f8\'c8\'a3(password) : \'bc\'f8\'bc\'ad\'b4\'eb\'b7\'ce user?? - user??\
+\
+=> \'c1\'a2\'bc\'d3 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'cc \'c7\'ca\'bf\'e4\
+\'c1\'a2\'bc\'d3 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'bf\'a1 \'b5\'fb\'b6\'f3\'bc\'ad\'b4\'c2 \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6\'b0\'a1 \'c7\'ca\'bf\'e4\'c7\'d1 \'b0\'e6\'bf\'ec\'b5\'b5 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+=> \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6\'b3\'aa \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba, \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\
+\
+A < - > B\
+\'bc\'ad\'b7\'ce \'b4\'d9\'b8\'a5 H/W \'b6\'c7\'b4\'c2 S/W\'b4\'c2 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'be\'f0\'be\'ee\'b0\'a1 \'b4\'d9\'b8\'a3\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'c1\'f7\'c1\'a2 \'b4\'eb\'c8\'ad\'c7\'d2 \'bc\'f6\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'b5\'d1 \'bb\'e7\'c0\'cc\'bf\'a1\'bc\'ad \'c1\'df\'c0\'e7\'c7\'cf\'b4\'c2 \'bf\'aa\'c7\'d2\'c0\'bb \'c7\'cf\'b4\'c2 \'bc\'d2\'c7\'c1\'c6\'ae\'bf\'fe\'be\'ee\'b3\'aa \'b1\'d4\'c4\'a2\'c0\'cc \'c7\'ca\'bf\'e4\
+\'c0\'cc\'b7\'af\'c7\'d1 \'bc\'d2\'c7\'c1\'c6\'ae\'bf\'fe\'be\'ee\'b3\'aa \'b1\'d4\'c4\'a2\'c0\'bb \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6, \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba, \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\'c0\'cc\'b6\'f3\'b0\'ed \'ba\'ce\'b8\'a8\'b4\'cf\'b4\'d9.\
+\'bc\'d2\'c7\'c1\'c6\'ae\'bf\'fe\'be\'ee\'c0\'cf \'b6\'a7\'b4\'c2 \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6\'b6\'f3\'b0\'ed \'c7\'cf\'b0\'ed \'c5\'eb\'bd\'c5\'c0\'bb \'c7\'d2 \'b6\'a7\'b4\'c2 \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\'c0\'cc\'b6\'f3\'b0\'ed \'c7\'cf\'b0\'ed \'c0\'cc\'b5\'e9\'c0\'bb \'c5\'eb\'c4\'aa\'c7\'d8\'bc\'ad \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\'b6\'f3\'b0\'ed \'c7\'cf\'b1\'e2\'b5\'b5 \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6(Operation System) : H/W\'bf\'cd \'c0\'ce\'b0\'a3 \'bb\'e7\'c0\'cc\'c0\'c7 \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\
+\
+** \'bf\'c0\'b6\'f3\'c5\'ac \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6 \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5\
+=> ojdbc6.jar : \'c0\'da\'b9\'d9 1.6 \'b9\'f6\'c0\'fc\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee\'c1\'f8 \'c0\'da\'b9\'d9\'bf\'cd \'bf\'c0\'b6\'f3\'c5\'ac\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'b5\'e5\'b6\'f3\'c0\'cc\'b9\'f6\
+=> \'bf\'c0\'b6\'f3\'c5\'ac \'c0\'a5 \'bb\'e7\'c0\'cc\'c6\'ae\'bf\'a1\'bc\'ad \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \'b9\'de\'be\'c6\'b5\'b5 \'b5\'c7\'b0\'ed \'bf\'c0\'b6\'f3\'c5\'ac\'c0\'cc \'bc\'b3\'c4\'a1\'b5\'c8 \'b0\'e6\'bf\'ec jdbc/lib \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+ggangpae1.tistory.com \'bf\'a1\'bc\'ad java \'c4\'ab\'c5\'d7\'b0\'ed\'b8\'ae\'b7\'ce \'c0\'cc\'b5\'bf\'c7\'cf\'b8\'e9 jar \'c6\'c4\'c0\'cf\'c0\'bb \'be\'d0\'c3\'e0\'c7\'d8\'b3\'f5\'c0\'ba jar \'b1\'db\'bf\'a1\'bc\'ad \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \'b9\'de\'be\'c6\'b5\'b5 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+** DBeaver \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5\
+https://dbeaver.io/download/\
+\
+** Join\
+\
+=> 2\'b0\'b3\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c7\'d5\'c3\'c4\'bc\'ad \'c7\'cf\'b3\'aa\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'bb\'fd\'bc\'ba\
+=> from \'c0\'fd\'bf\'a1 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'c0\'cc 2\'b0\'b3 \'c0\'cc\'bb\'f3 \'bb\'e7\'bf\'eb\'b5\'cb\'b4\'cf\'b4\'d9.\
+=> join\'c0\'c7 \'b0\'b3\'b3\'e4\'c0\'ba \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba \'bb\'d3 \'be\'c6\'b4\'cf\'b6\'f3 \'c3\'d6\'b1\'d9\'bf\'a1 \'b5\'a5\'c0\'cc\'c5\'cd \'ba\'d0\'bc\'ae \'b6\'f3\'c0\'cc\'ba\'ea\'b7\'af\'b8\'ae\'bf\'a1\'bc\'ad\'b5\'b5 \'b1\'d7 \'b0\'b3\'b3\'e4\'c0\'bb \'bb\'e7\'bf\'eb\
+\
+1. Cross Join : Cartesian Product\
+\
+=> from \'c0\'fd\'bf\'a1 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'c0\'bb 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'bb \'b1\'e2\'c0\'e7\'c7\'cf\'b0\'ed where \'c0\'fd\'bf\'a1\'bc\'ad join \'c1\'b6\'b0\'c7\'c0\'cc \'be\'f8\'b4\'c2 \'b0\'e6\'bf\'ec(2\'b0\'b3 \'c5\'d7\'c0\'cc\'ba\'ed \'bb\'e7\'c0\'cc\'c0\'c7 \'c4\'c3\'b7\'b3 \'ba\'f1\'b1\'b3\'b8\'a6 \'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2 \'b0\'e6\'bf\'ec)\
+=> 2\'b0\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'b8\'f0\'b5\'e7 \'c1\'b6\'c7\'d5\'c0\'bb \'b0\'a1\'c1\'f6\'b0\'ed \'bb\'f5\'b7\'ce\'bf\'ee \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'bb\'fd\'bc\'ba\'c7\'d8\'bc\'ad \'b8\'ae\'c5\'cf\
+=> \'bf\'ad\'c0\'c7 \'b0\'b3\'bc\'f6\'b4\'c2 \'be\'e7\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'bf\'ad\'c0\'c7 \'b0\'b3\'bc\'f6\'b8\'a6 \'c7\'d5\'c4\'a3 \'b8\'b8\'c5\'ad\'c0\'cc \'b5\'c7\'b0\'ed \'c7\'e0\'c0\'c7 \'b0\'b3\'bc\'f6\'b4\'c2 \'be\'e7\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c7\'e0\'c0\'c7 \'b0\'b3\'bc\'f6\'b8\'a6 \'b0\'f6\'c7\'d1\'b8\'b8\'c5\'ad \'bb\'fd\'bc\'ba\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'ba 8\'b0\'b3\'c0\'c7 \'bf\'ad\'b0\'fa 14\'b0\'b3\'c0\'c7 \'c7\'e0\'c0\'b8\'b7\'ce \'b1\'b8\'bc\'ba\cf0 \
+\cf2 --DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'ba 3\'b0\'b3\'c0\'c7 \'bf\'ad\'b0\'fa 4\'b0\'b3\'c0\'c7 \'c7\'e0\'c0\'b8\'b7\'ce \'b1\'b8\'bc\'ba\cf0 \
+\cf2 --1. CROSS JOIN : 11\'b0\'b3\'c0\'c7 \'bf\'ad\'b0\'fa 56\'b0\'b3\'c0\'c7 \'c7\'e0\'c0\'cc \'bb\'fd\'bc\'ba\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP,\cf4  \cf5 DEPT\cf6 ;\
+\
+\cf0 2. EQUI JOIN\
+\
+=> 2\'b0\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'b0\'f8\'c5\'eb\'b5\'c8 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'ae\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'cc \'b5\'bf\'c0\'cf\'c7\'d1 \'b0\'e6\'bf\'ec\'bf\'a1\'b8\'b8 \'c1\'b6\'c7\'d5\'c0\'bb \'b8\'b8\'b5\'e9\'b5\'b5\'b7\'cf \'c7\'cf\'b4\'c2 \'c1\'b6\'c0\'ce \'b9\'e6\'bd\'c4\
+=> \'b9\'dd\'b5\'e5\'bd\'c3 2\'b0\'b3\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'b0\'f8\'c5\'eb\'b5\'c8 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'ae\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'bf\'dc\'b7\'a1\'c5\'b0(FOREIGN KEY)\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad JOIN\'c0\'bb \'c7\'d5\'b4\'cf\'b4\'d9.\
+=> 2\'b0\'b3 \'bf\'ad\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba \'b0\'b0\'be\'c6\'b5\'b5 \'b5\'c7\'b0\'ed \'b4\'de\'b6\'f3\'b5\'b5 \'b5\'cb\'b4\'cf\'b4\'d9.\
+2\'b0\'b3 \'c4\'c3\'b7\'b3\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc \'b0\'b0\'c0\'ba \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'cc\'b8\'a7.\'c4\'c3\'b7\'b3\'c0\'cc\'b8\'a7 \'c7\'fc\'c5\'c2\'b7\'ce \'c0\'db\'bc\'ba\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c5\'d7\'c0\'cc\'ba\'ed\'c0\'cc\'b8\'a7\'c0\'bb \'bb\'fd\'b7\'ab\'c7\'cf\'b8\'e9 \'c0\'cc\'b8\'a7\'c0\'cc \'be\'d6\'b8\'c5\'b8\'f0\'c8\'a3\'c7\'cf\'b4\'d9\'b0\'ed \'bf\'a1\'b7\'af\'b0\'a1 \'b9\'df\'bb\'fd\'c7\'d5\'b4\'cf\'b4\'d9.\
+=> where \'c0\'fd\'bf\'a1 2\'b0\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'b0\'f8\'c5\'eb\'b5\'c8 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'ae\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'cc \'b5\'bf\'c0\'cf\'c7\'cf\'b4\'d9\'b4\'c2 join \'c1\'b6\'b0\'c7\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 DEPTNO\'b4\'c2 \'ba\'ce\'bc\'ad \'b9\'f8\'c8\'a3\'c0\'cc\'b0\'ed DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 DEPTNO\'b5\'b5 \'ba\'ce\'bc\'ad\'b9\'f8\'c8\'a3\'c0\'d4\'b4\'cf\'b4\'d9.\cf0 \
+\cf2 --2. 2\'b0\'b3\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad EQUI JOIN \'bc\'f6\'c7\'e0\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP,\cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 EMP.DEPTNO\cf4  \cf5 =\cf4  \cf5 DEPT.DEPTNO\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+3. \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'cc\'b8\'a7\'bf\'a1 \'ba\'b0\'b8\'ed \'bb\'e7\'bf\'eb\
+\
+=> FROM \'c0\'fd\'bf\'a1\'bc\'ad \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7 \'b5\'da\'bf\'a1 \'c7\'d1 \'c4\'ad \'b0\'f8\'b9\'e9\'c0\'bb \'b5\'ce\'b0\'ed \'ba\'b0\'b8\'ed\'c0\'bb \'b8\'b8\'b5\'e9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+=> \'ba\'b0\'b8\'ed\'c0\'bb \'b8\'b8\'b5\'e9\'b8\'e9 \'c0\'cc\'c8\'c4\'bf\'a1\'b4\'c2 \'bf\'f8\'b7\'a1 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7 \'b4\'eb\'bd\'c5\'bf\'a1 \'ba\'b0\'b8\'ed\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+=> \'ba\'b0\'b8\'ed\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'cc\'c0\'af\'b4\'c2 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc \'b3\'ca\'b9\'ab \'b1\'e6\'be\'ee\'bc\'ad \'c1\'d9\'bf\'a9\'be\'b2\'b1\'e2 \'c0\'a7\'c7\'d1 \'b8\'f1\'c0\'fb\'b5\'b5 \'c0\'d6\'b0\'ed \
+\'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'c0\'bb \'c1\'b6\'b1\'dd \'b4\'f5 \'b8\'ed\'c8\'ae\'c7\'cf\'b0\'d4 \'c7\'a5\'c7\'f6\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'c7\'d1\'b1\'db \'b5\'ee\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'c0\'d4\'b4\'cf\'b4\'d9.\
+=> \'ba\'b0\'b8\'ed\'c0\'bb \'b8\'b8\'b5\'e7 \'bb\'f3\'c5\'c2\'bf\'a1\'bc\'ad \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'bf\'f8\'b7\'a1 \'c0\'cc\'b8\'a7\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 Invalid Identifier \'bf\'a1\'b7\'af\'b0\'a1 \'b9\'df\'bb\'fd\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba e \'b7\'ce DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba d\'b7\'ce \'ba\'b0\'b8\'ed\'c0\'bb \'b8\'b8\'b5\'e9\'be\'ee\'bc\'ad \'c0\'a7\'c0\'c7 join\'c0\'bb \'bc\'f6\'c7\'e0\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e,\cf4  \cf5 DEPT\cf4  \cf5 d\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e.DEPTNO\cf4  \cf5 =\cf4  \cf5 d.DEPTNO\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+4. JOIN \'c0\'bb \'c7\'d1 \'c8\'c4 \'bf\'f8\'c7\'cf\'b4\'c2 \'c1\'b6\'b0\'c7\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8 \'c3\'df\'c3\'e2\'c7\'cf\'b0\'ed\'c0\'da \'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 JOIN \'c1\'b6\'b0\'c7 \'b5\'da\'bf\'a1 AND\'b8\'a6 \'b1\'e2\'c0\'e7\'c7\'cf\'b0\'ed\
+\'c1\'b6\'b0\'c7\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'c1\'d6\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 LOC\'b0\'a1 DALLAS \'c0\'ce \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 ENAME \'b0\'fa SAL \'b0\'fa LOC\'b8\'a6 \'c8\'ae\'c0\'ce\cf0 \
+\cf2 --LOC\'b4\'c2 DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'c1\'b8\'c0\'e7\'c7\'cf\'b0\'ed ENAME \'b0\'fa SAL\'c0\'ba EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'c1\'b8\'c0\'e7\cf0 \
+\cf2 --2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'bb \'b0\'a1\'c1\'f6\'b0\'ed \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'df\'c3\'e2\'c7\'d8\'be\'df \'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1 JOIN\'c0\'bb \'bb\'e7\'bf\'eb\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4 	\cf5 ENAME,\cf4  \cf5 SAL,\cf4  \cf5 LOC\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  	\cf5 EMP\cf4  \cf5 e,\cf4  \cf5 DEPT\cf4  \cf5 d\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4 	\cf5 d.DEPTNO\cf4  \cf5 =\cf4  \cf5 e.DEPTNO\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  
+\f1\b \cf7 UPPER
+\f0\b0 \cf5 (LOC)\cf4  \cf5 =\cf4  \cf8 'DALLAS'\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 SAL \'c0\'cc 3000 \'c0\'cc\'bb\'f3\'c0\'ce \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 ENAME \'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 LOC\'b8\'a6 \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  	\cf5 ENAME,\cf4  \cf5 LOC\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  		\cf5 EMP\cf4  \cf5 e,\cf4  \cf5 DEPT\cf4  \cf5 d\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4 	\cf5 e.DEPTNO\cf4  \cf5 =\cf4  \cf5 d.DEPTNO\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4   \cf5 SAL\cf4  \cf5 >=\cf4  \cf9 3000\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+5. NON EQUI JOIN\
+\
+=> join \'c1\'b6\'b0\'c7\'c0\'bb \'b8\'b8\'b5\'e9 \'b6\'a7 = \'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'cf\'c1\'f6 \'be\'ca\'b0\'ed \'b4\'d9\'b8\'a5 \'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 join\
+=> \'ba\'b8\'c5\'eb\'c0\'ba \'b9\'fc\'c0\'a7 \'b3\'bb\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'a3\'b0\'ed\'c0\'da \'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\
+=> SALGRADE \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad\'b4\'c2 GRADE \'c4\'c3\'b7\'b3\'c0\'cc \'c0\'d6\'b0\'ed LOSAL \'b0\'fa HISAL \'c4\'c3\'b7\'b3\'c0\'cc \'c1\'b8\'c0\'e7\
+GRADE\'b4\'c2 \'b5\'ee\'b1\'de\'c0\'cc\'b0\'ed LOSAL\'c0\'ba \'c3\'d6\'c0\'fa \'b1\'de\'bf\'a9\'c0\'cc\'b0\'ed HISAL \'c3\'d6\'b0\'ed \'b1\'de\'bf\'a9\'c0\'d4\'b4\'cf\'b4\'d9.\
+EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 SAL \'b0\'fa = \'b7\'ce \'ba\'f1\'b1\'b3\'c7\'d8\'bc\'ad GRADE\'b8\'a6 \'c3\'a3\'be\'c6\'bf\'c3 \'bc\'f6\'b4\'c2 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+SAL\'c0\'cc LOSAL \'ba\'b8\'b4\'d9\'b4\'c2 \'c5\'a9\'b0\'c5\'b3\'aa \'b0\'b0\'be\'c6\'be\'df \'c7\'cf\'b0\'ed HISAL \'ba\'b8\'b4\'d9\'b4\'c2 \'c0\'db\'b0\'c5\'b3\'aa \'b0\'b0\'b3\'c4\'b0\'ed \'ba\'f1\'b1\'b3\'c7\'d8\'bc\'ad GRADE\'b8\'a6 \'c3\'a3\'be\'c6\'bf\'cd\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 SAL \'b0\'fa SALGRADE\'c0\'c7 LOSAL \'b1\'d7\'b8\'ae\'b0\'ed HISAL\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \cf0 \
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 ENAME \'b0\'fa SALGRADE \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 GRADE\'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 GRADE\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e,\cf4  \cf5 SALGRADE\cf4  \cf5 s\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e.SAL\cf4  \cf5 >=\cf4  \cf5 s.LOSAL\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 e.SAL\cf4  \cf5 <=\cf4  \cf5 s.HISAL\cf6 ;\cf0 \
+\
+\cf2 --\'c0\'a7\'c0\'c7 \'b0\'e6\'bf\'ec\'c3\'b3\'b7\'b3 \'c6\'af\'c1\'a4\'c7\'d1 \'b9\'fc\'c0\'a7 \'b3\'bb\'bf\'a1 \'bc\'d3\'c7\'d1 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c3\'a3\'c0\'bb \'b6\'a7\'b4\'c2 BETWEEN \'bb\'e7\'bf\'eb \'b0\'a1\'b4\'c9\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 GRADE\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e,\cf4  \cf5 SALGRADE\cf4  \cf5 s\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e.SAL\cf4  
+\f1\b \cf3 BETWEEN
+\f0\b0 \cf4  \cf5 s.LOSAL\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 s.HISAL\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+6. Self JOIN\
+\
+=> \'b5\'bf\'c0\'cf\'c7\'d1 \'c5\'d7\'c0\'cc\'ba\'ed\'b3\'a2\'b8\'ae JOIN\
+=> \'c7\'cf\'b3\'aa\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'b5\'bf\'c0\'cf\'c7\'d1 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'a1\'c1\'f8 \'c4\'c3\'b7\'b3\'c0\'cc 2\'b0\'b3 \'c0\'cc\'bb\'f3 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1 \'bc\'f6\'c7\'e0\
+=> \'c0\'ce\'bb\'e7 \'c1\'a4\'ba\'b8 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'f8 ID\'bf\'cd \'bb\'f3\'b1\'de\'c0\'da ID\'b8\'a6 \'b0\'b0\'c0\'cc \'b0\'ae\'b4\'c2 \'b0\'e6\'bf\'ec \'b1\'d7\'b8\'ae\'b0\'ed SNS\'bf\'a1\'bc\'ad \'c6\'c8\'b7\'ce\'bf\'ec \'c5\'d7\'c0\'cc\'ba\'ed \'b0\'b0\'c0\'ba \'b0\'e6\'bf\'ec\'b4\'c2 \
+\'c0\'da\'bd\'c5\'c0\'c7 ID \'bf\'cd \'c6\'c8\'b7\'ce\'bf\'ec ID\'b8\'a6 \'c7\'cf\'b3\'aa\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'b0\'b0\'c0\'cc \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'c0\'cc\'b7\'b1 \'b0\'e6\'bf\'ec\'b0\'a1 Self JOIN\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d1 \'b0\'e6\'bf\'ec\'c0\'d4\'b4\'cf\'b4\'d9.\
+=> EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b4\'c2 \'bb\'e7\'bf\'f8\'b9\'f8\'c8\'a3\'b8\'a6 \'c0\'c7\'b9\'cc\'c7\'cf\'b4\'c2 EMPNO\'b0\'a1 \'c0\'d6\'b0\'ed \'b0\'fc\'b8\'ae\'c0\'da\'c0\'c7 \'bb\'e7\'bf\'f8\'b9\'f8\'c8\'a3\'c0\'ce MGR \'c4\'c3\'b7\'b3\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\uc0\u8212  EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'b0\'fc\'b8\'ae\'c0\'da\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc \'a1\'aeKING\'a1\'af\'c0\'ce \'bb\'e7\'bf\'f8\'c0\'c7 ENAME\'c0\'bb \'c1\'b6\'c8\'b8\
+\
+EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad ENAME\'c0\'cc KING \'bb\'e7\'bf\'f8\'c0\'c7 \'bb\'e7\'bf\'f8\'b9\'f8\'c8\'a3\'b8\'a6 \'c1\'b6\'c8\'b8\'c7\'cf\'b0\'ed \'c0\'cc \'bb\'e7\'bf\'f8\'b9\'f8\'c8\'a3\'b8\'a6 MGR\'b7\'ce \'b0\'a1\'c1\'f8 \'bb\'e7\'bf\'f8\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'bb \'c3\'a3\'be\'c6\'bf\'cd\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c6\'c8\'b7\'ce\'bf\'ec \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'b3\'bb\'b0\'a1 \'c6\'c8\'b7\'ce\'bf\'ec\'c7\'d1 \'c0\'af\'c0\'fa\'c0\'c7 \'c6\'c8\'b7\'ce\'bf\'ec\'b8\'a6 \'c3\'a3\'be\'c6\'bf\'c0\'b4\'c2 \'b0\'e6\'bf\'ec\'b0\'a1 \'c0\'cc\'bf\'cd \'ba\'f1\'bd\'c1\'c7\'d1 \'b0\'e6\'bf\'ec\'c0\'d4\'b4\'cf\'b4\'d9.\
+SNS\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'cc \'b9\'e6\'b9\'fd\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'c4\'a3\'b1\'b8 \'c3\'df\'c3\'b5\'c0\'bb \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'bf\'ac\'b0\'fc\'ba\'d0\'bc\'ae\'bf\'a1\'bc\'ad\'b5\'b5 \'c0\'cc \'b9\'e6\'b9\'fd\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9.(\'bb\'f3\'c7\'b0 \'c3\'df\'c3\'b5, \'b4\'ba\'bd\'ba \'c3\'df\'c3\'b5 \'a1\'a6)\
+\
+=> self join\'bf\'a1\'bc\'ad\'b4\'c2 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'bf\'a1 \'ba\'b0\'b8\'ed\'c0\'bb \'b9\'dd\'b5\'e5\'bd\'c3 \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\'b5\'bf\'c0\'cf\'c7\'d1 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'bd\'c7\'c1\'a6 \'c0\'cc\'b8\'a7\'c0\'cc \'c1\'df\'c3\'b8\'c0\'cc\'b5\'c7\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'ba\'b0\'b8\'ed\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'b1\'b8\'ba\'d0\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'b0\'fc\'b8\'ae\'c0\'da\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc 'KING'\'c0\'ce  \'bb\'e7\'bf\'f8\'c0\'c7 ENAME\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --JONES, BLAKE, CLARK\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4   \cf5 e2.ENAME\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e1,\cf4  \cf5 EMP\cf4  \cf5 e2\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e1.EMPNO\cf4  \cf5 =\cf4  \cf5 e2.MGR\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  
+\f1\b \cf7 UPPER
+\f0\b0 \cf5 (e1.ENAME)\cf4  \cf5 =\cf4  \cf8 'KING'\cf6 ;\cf0 \
+\
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'c0\'da\'bd\'c5\'c0\'c7 \'b0\'fc\'b8\'ae\'c0\'da\'ba\'b8\'b4\'d9 SAL\'c0\'c7 \'b0\'aa\'c0\'cc \'c5\'a9\'b0\'c5\'b3\'aa \'b0\'b0\'c0\'ba \'bb\'e7\'bf\'f8\'c0\'c7 ENAME\'b0\'fa SAL\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --WHERE e1.EMPNO(=>\'b0\'fc\'b8\'ae\'c0\'da\'c0\'c7 \'b9\'f8\'c8\'a3) = e2.MGR(=>\'b3\'bb \'b9\'f8\'c8\'a3)\cf0 \
+\cf2 --\'c0\'a7\'c0\'c7 \'b0\'b0\'c0\'ba\'b0\'e6\'bf\'ec e2.MGR\'c0\'c7 \'b0\'fc\'b8\'ae\'c0\'da\'c0\'c7 \'b9\'f8\'c8\'a3\'b0\'a1 e1.EMPNO\'bf\'a1 \'b3\'d6\'be\'ee\'c1\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 e2.ENAME,\cf4  \cf5 e2.SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e1,\cf4  \cf5 EMP\cf4  \cf5 e2\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e1.EMPNO\cf4  \cf5 =\cf4  \cf5 e2.MGR\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 e1.SAL\cf4  \cf5 <=\cf4  \cf5 e2.SAL\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad COMM\'c0\'cc NULL\'c0\'cc \'be\'c6\'b4\'d1 \'bb\'e7\'bf\'f8\'c0\'bb \'b0\'fc\'b8\'ae\'c0\'da\'b7\'ce \'b5\'ce\'b0\'ed \'c0\'d6\'b4\'c2 \'bb\'e7\'bf\'f8\'c0\'c7 ENAME\'b0\'fa MGR\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --NULL\'c0\'ba = \'b3\'aa !=\'b7\'ce \'ba\'f1\'b1\'b3\'c7\'cf\'c1\'f6 \'be\'ca\'b0\'ed IS NULL \'b6\'c7\'b4\'c2 IS NOT NULL\'b7\'ce \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --MGR\'c0\'cc 7499, 7521, 7654, 7844 \'c0\'ce \'bb\'e7\'bf\'f8\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --\'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'be\'f8\'c0\'bd\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 e2.ENAME,\cf4  \cf5 e2.MGR\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e1,\cf4  \cf5 EMP\cf4  \cf5 e2\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e1.EMPNO\cf4  \cf5 =\cf4  \cf5 e2.MGR\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 e1.COMM\cf4  
+\f1\b \cf3 IS
+\f0\b0 \cf4  
+\f1\b \cf3 NOT
+\f0\b0 \cf4  
+\f1\b \cf3 NULL
+\f0\b0 \cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+7. OUTER JOIN\
+\
+=> INNER JOIN : \'b0\'f8\'c5\'eb\'b5\'c8 \'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'cc \'be\'e7\'c2\'ca\'bf\'a1 \'b8\'f0\'b5\'ce \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1\'b8\'b8 JOIN\'bf\'a1 \'c2\'fc\'bf\'a9\
+=> OUTER JOIN : \'b0\'f8\'c5\'eb\'b5\'c8 \'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'cc \'c7\'d1 \'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1\'b5\'b5 JOIN\'bf\'a1 \'c2\'fc\'bf\'a9\
+=> LEFT OUTER JOIN(\'bf\'de\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8 \'c2\'fc\'bf\'a9)\
+=> RIGHT OUTER JOIN(\'bf\'c0\'b8\'a5\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8 \'c2\'fc\'bf\'a9)\
+=> FULL OUTER JOIN(\'c7\'d1\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd \'c0\'fc\'ba\'ce \'c2\'fc\'bf\'a9)\
+\
+=> \'c7\'a5\'c1\'d8 SQL \'bf\'a1\'bc\'ad\'b4\'c2 \'c1\'b6\'c0\'ce\'c0\'bb \'c7\'d2 \'b6\'a7 \'c4\'c3\'b7\'b3 \'c0\'cc\'b8\'a7 \'b5\'da\'bf\'a1 (+)\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad OUTER JOIN\'c0\'bb \'bc\'f6\'c7\'e0\
+\'be\'e7\'c2\'ca\'bf\'a1 \'c3\'df\'b0\'a1\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'ba \'be\'c8\'b5\'c7\'bc\'ad FULL OUTER JOIN\'c0\'ba (+)\'b7\'ce\'b4\'c2 \'b8\'f8\'c7\'d4\
+=> \'c7\'d1\'c2\'ca\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 JOIN \'c8\'c4 \'b4\'d9\'b8\'a5 \'c5\'d7\'c0\'cc\'ba\'ed \'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'aa\'c0\'ba NULL\'c0\'cc \'b5\'cb\'b4\'cf\'b4\'d9.\
+=> EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b4\'c2 DEPTNO\'b0\'a1 40\'c0\'ce \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b4\'c2 DEPTNO \'b0\'a1 10, 20, 30, 40\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c1\'b6\'c0\'ce\'c7\'cf\'b4\'c2\'b5\'a5 DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b5\'b5 \'c2\'fc\'bf\'a9\cf0 \
+\cf2 -- +\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'d1 \'c2\'ca\'c0\'cc \'c2\'fc\'bf\'a9\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'c6\'b4\'cf\'b0\'ed + \'be\'f8\'b4\'c2 \'c2\'ca\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'c2\'fc\'bf\'a9\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e,\cf4  \cf5 DEPT\cf4  \cf5 d\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e.DEPTNO(+)\cf4  \cf5 =\cf4  \cf5 d.DEPTNO\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c1\'b6\'c0\'ce\'c7\'cf\'b4\'c2\'b5\'a5 DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b5\'b5 \'c2\'fc\'bf\'a9\cf0 \
+\cf2 -- +\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'d1 \'c2\'ca\'c0\'cc \'c2\'fc\'bf\'a9\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'c6\'b4\'cf\'b0\'ed + \'be\'f8\'b4\'c2 \'c2\'ca\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'c2\'fc\'bf\'a9\cf0 \
+\cf2 --\'c7\'d1\'c2\'ca\'bf\'a1\'b8\'b8 \'c0\'d6\'b4\'c2\'b0\'cd\'c0\'bb \'c3\'a3\'be\'c6\'bf\'c0\'b4\'c2 \'b9\'e6\'b9\'fd(NULL\'c0\'cc\'b6\'f3\'bc\'ad NULL\'c0\'ce\'b0\'cd\'c0\'bb \'c3\'a3\'c0\'bd)\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  \cf5 e,\cf4  \cf5 DEPT\cf4  \cf5 d\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 e.DEPTNO(+)\cf4  \cf5 =\cf4  \cf5 d.DEPTNO\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 e.DEPTNO\cf4  
+\f1\b \cf3 IS
+\f0\b0 \cf4  
+\f1\b \cf3 NULL
+\f0\b0 \cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+8. ANSI JOIN\
+\
+=> \'b9\'cc\'b1\'b9 \'c7\'a5\'c1\'d8 \'c7\'f9\'c8\'b8(ANSI)\'bf\'a1\'bc\'ad \'c3\'df\'b0\'a1\'c7\'d2 JOIN \'b9\'ae\'b9\'fd\
+=> \'c0\'cc \'b9\'ae\'b9\'fd\'c0\'ba \'c7\'a5\'c1\'d8\'c0\'ba \'be\'c6\'b4\'cf\'be\'ee\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'fc\'b0\'e8\'c7\'fc \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba\'b0\'a1 \'c0\'d6\'b0\'ed \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'be\'f8\'b4\'c2 \'b0\'fc\'b0\'e8\'c7\'fc \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba\'b5\'b5 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+1) ANSI CROSS JOIN\
+\
+=> FROM \'c0\'fd\'bf\'a1\'bc\'ad \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'b0\'fa \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7 \'bb\'e7\'c0\'cc\'bf\'a1 CROSS JOIN\'c0\'cc\'b6\'f3\'b0\'ed \'b1\'e2\'c0\'e7\'b8\'a6 \'c7\'d8\'bc\'ad CROSS JOIN\'c0\'bb \'bc\'f6\'c7\'e0\
+=> CROSS JOIN\'c0\'ba \'be\'e7\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'b8\'f0\'b5\'e7 \'c1\'b6\'c7\'d5\'c0\'bb \'b0\'a1\'c1\'f6\'b0\'ed \'bb\'f5\'b7\'ce\'bf\'ee \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'b8\'b8\'b5\'e9\'be\'ee \'b3\'bb\'b4\'c2 \'b0\'cd\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 ANSI CROSS JOIN\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  
+\f1\b \cf3 CROSS
+\f0\b0 \cf4  
+\f1\b \cf3 JOIN
+\f0\b0 \cf4  \cf5 DEPT\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+2) ANSI INNER JOIN\
+\
+=> FROM \'c0\'fd\'bf\'a1\'b4\'c2 \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7\'b0\'fa \'c0\'cc\'b8\'a7 \'bb\'e7\'c0\'cc\'bf\'a1 INNER JOIN \'c0\'cc\'b6\'f3\'b0\'ed \'b1\'e2\'c0\'e7\'b8\'a6 \'c7\'cf\'b0\'ed JOIN \'c1\'b6\'b0\'c7\'c0\'bb WHERE \'c0\'fd\'c0\'cc \'be\'c6\'b4\'d1 ON\'c0\'fd\'bf\'a1 \'b1\'e2\'c0\'e7\
+=> WHERE \'c0\'fd\'bf\'a1\'bc\'ad JOIN \'c1\'b6\'b0\'c7\'c0\'bb WHERE \'be\'d5\'bf\'a1 ON\'c0\'fd\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'c0\'cc\'b5\'bf\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 ANSI INNER JOIN\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  
+\f1\b \cf3 INNER
+\f0\b0 \cf4  
+\f1\b \cf3 JOIN
+\f0\b0 \cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 ON
+\f0\b0 \cf4  \cf5 EMP.DEPTNO\cf4  \cf5 =\cf4  \cf5 DEPT.DEPTNO\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+=> \'b0\'a1\'b5\'b6\'bc\'ba\'c0\'cc \'b3\'f4\'be\'c6\'c1\'f6\'b4\'c2\'b5\'a5 \'b0\'b3\'b9\'df\'c0\'da \'b5\'e9\'c0\'ba \'c7\'a5\'c1\'d8\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3\'bc\'ad \'c0\'df \'bb\'e7\'bf\'eb\'c7\'cf\'c1\'f6 \'be\'ca\'c0\'bd\
+\
+=> \'be\'e7\'c2\'ca \'c4\'c3\'b7\'b3\'c0\'c7 \'c1\'b6\'c0\'ce \'c1\'b6\'b0\'c7\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c7\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'cc \'c0\'cc\'b8\'a7\'c0\'cc \'b0\'b0\'b4\'d9\'b8\'e9 on \'b4\'eb\'bd\'c5\'bf\'a1 using \'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'c7\'d1 \'b9\'f8\'b8\'b8 \'c0\'db\'bc\'ba\'c7\'d8\'b5\'b5 \'b5\'cb\'b4\'cf\'b4\'d9.\
+using(\'b0\'f8\'c5\'eb\'c4\'c3\'b7\'b3)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf10 SELECT
+\f0\b0 \cf4  \cf11 *\cf0 \
+
+\f1\b \cf10 FROM
+\f0\b0 \cf4  \cf11 EMP\cf4  
+\f1\b \cf10 INNER
+\f0\b0 \cf4  
+\f1\b \cf10 JOIN
+\f0\b0 \cf4  \cf11 DEPT\cf0 \
+
+\f1\b \cf10 USING
+\f0\b0 \cf4  \cf11 (DEPTNO)\cf12 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+=> \'c1\'b6\'c0\'ce\'bf\'a1 \'c2\'fc\'bf\'a9\'c7\'cf\'b4\'c2 \'be\'e7\'c2\'ca \'c4\'c3\'b7\'b3\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc \'b0\'b0\'c0\'ba \'b0\'e6\'bf\'ec INNER JOIN \'b4\'eb\'bd\'c5\'bf\'a1 NATURAL JOIN\'c0\'cc\'b6\'f3\'b0\'ed \'b1\'e2\'c0\'e7\'c7\'cf\'b8\'e9\
+\'c1\'b6\'c0\'ce \'c1\'b6\'b0\'c7\'c0\'bb \'c0\'db\'bc\'ba\'c7\'cf\'c1\'f6 \'be\'ca\'be\'c6\'b5\'b5 \'b5\'bf\'c0\'cf\'c7\'d1 \'c0\'cc\'b8\'a7\'c0\'b8\'b7\'ce \'b1\'b8\'bc\'ba\'b5\'c8 \'c4\'c3\'b7\'b3\'c0\'bb \'c3\'a3\'be\'c6\'bc\'ad JOIN\'c0\'bb \'bc\'f6\'c7\'e0\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  
+\f1\b \cf3 NATURAL
+\f0\b0 \cf4  
+\f1\b \cf3 JOIN
+\f0\b0 \cf4  \cf5 DEPT\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+3) ANSI OUTER JOIN\
+\
+=> INNER JOIN \'b4\'eb\'bd\'c5\'bf\'a1 LEFT OUTER JOIN, RIGHT OUTER JOIN, FULL OUTER JOIN \'c0\'cc\'b6\'f3\'b0\'ed \'b1\'e2\'c0\'e7\'b8\'a6 \'c7\'cf\'b8\'e9\
+OUTER JOIN\'c0\'bb \'bc\'f6\'c7\'e0\
+=> ON \'c0\'fd\'c0\'cc\'b3\'aa USING \'c0\'fd\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad JOIN \'c1\'b6\'b0\'c7\'c0\'bb \'b1\'e2\'c0\'e7\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed \'b0\'a3\'c0\'c7 RIGHT OUTER JOIN\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP,\cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 EMP.DEPTNO(+)\cf4  \cf5 =\cf4  \cf5 DEPT.DEPTNO\cf6 ;\cf0 \
+\
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  
+\f1\b \cf3 RIGHT
+\f0\b0 \cf4  
+\f1\b \cf3 OUTER
+\f0\b0 \cf4  
+\f1\b \cf3 JOIN
+\f0\b0 \cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 ON
+\f0\b0 \cf4  \cf5 EMP.DEPTNO\cf4  \cf5 =\cf4  \cf5 DEPT.DEPTNO\cf6 ;\cf0 \
+\
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 *\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf4  
+\f1\b \cf3 RIGHT
+\f0\b0 \cf4  
+\f1\b \cf3 OUTER
+\f0\b0 \cf4  
+\f1\b \cf3 JOIN
+\f0\b0 \cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 USING
+\f0\b0 \cf4  \cf5 (DEPTNO)\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+4) OUTER JOIN\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 FULL OUTER JOIN \'b6\'a7\'b9\'ae\'bf\'a1 ANSI JOIN\'c0\'bb \'b8\'b9\'c0\'cc \'c0\'cc\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'be\'e7\'c2\'ca \'c4\'c3\'b7\'b3\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'cc \'b0\'b0\'c0\'bb \'b6\'a7 USING\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'b8\'e9 \'b0\'e1\'b0\'fa\'b0\'a1 \'b8\'ae\'c5\'cf\'b5\'c9 \'b6\'a7 \'b5\'bf\'c0\'cf\'c7\'d1 \'c4\'c3\'b7\'b3\'c0\'cc \'c7\'d1 \'b9\'f8\'b8\'b8 \'c3\'e2\'b7\'c2\'b5\'c7\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1\
+\'b8\'de\'b8\'f0\'b8\'ae\'b8\'a6 \'c0\'fd\'be\'e0\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+9. SET OPERATOR : \'c1\'fd\'c7\'d5 \'bf\'ac\'bb\'ea\'c0\'da\
+\
+=> \'b5\'bf\'c0\'cf\'c7\'d1 \'b1\'b8\'c1\'b6\'c0\'c7 \'c5\'d7\'c0\'cc\'ba\'ed \'b3\'a2\'b8\'ae\'c0\'c7 \'bf\'ac\'bb\'ea\
+=> \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'b0\'f8\'c5\'eb\'b5\'c8 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'df\'c3\'e2\'c7\'cf\'b0\'ed \'c7\'d5\'c4\'a1\'b0\'ed \'c7\'d1 \'c2\'ca\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'a3\'be\'c6\'b3\'bb\'b4\'c2 \'bf\'ac\'bb\'ea\'c0\'da\
+=> \'b4\'eb\'c0\'c0\'c0\'cc \'b5\'c7\'b4\'c2 \'c4\'c3\'b7\'b3\'b3\'a2\'b8\'ae\'b4\'c2 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'cc \'c0\'cf\'c4\'a1\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+=> \'c4\'c3\'b7\'b3\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba \'bb\'f3\'b0\'fc\'c0\'cc \'be\'f8\'c0\'bd\
+=> \'b0\'e1\'b0\'fa\'b0\'a1 \'c3\'e2\'b7\'c2\'b5\'c9 \'b6\'a7\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'cc\'b8\'a7\'c0\'ba \'be\'d5 \'c2\'ca\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c8 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c4\'c3\'b7\'b3\'c0\'cc\'b8\'a7\'c0\'cc \'c3\'e2\'b7\'c2\
+=> ORDER BY\'b4\'c2 \'b8\'b6\'c1\'f6\'b8\'b7\'bf\'a1 \'c7\'d1 \'b9\'f8\'b8\'b8 \'bb\'e7\'bf\'eb\'c0\'cc \'b0\'a1\'b4\'c9\
+\
+SELECT * \'b6\'c7\'b4\'c2 \'c4\'c3\'b7\'b3 \'b6\'c7\'b4\'c2 \'bf\'ac\'bb\'ea\'bd\'c4 \'b3\'aa\'bf\'ad\
+FROM \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7 \'b3\'aa\'bf\'ad\
+\
+SET \'bf\'ac\'bb\'ea\'c0\'da\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 SELECT * \'b6\'c7\'b4\'c2 \'c4\'c3\'b7\'b3 \'b6\'c7\'b4\'c2 \'bf\'ac\'bb\'ea\'bd\'c4 \'b3\'aa\'bf\'ad\
+FROM \'c5\'d7\'c0\'cc\'ba\'ed \'c0\'cc\'b8\'a7 \'b3\'aa\'bf\'ad\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+ORDER BY \'c1\'a4\'b7\'c4\'c7\'d2 \'c4\'c3\'b7\'b3\'c0\'cc\'b8\'a7 \'b6\'c7\'b4\'c2 \'bf\'ac\'bb\'ea\'bd\'c4;\
+\
+1) UNION\
+=> \'c7\'d5\'c1\'fd\'c7\'d5\'c0\'bb \'b1\'b8\'c7\'d8\'c1\'d6\'b4\'c2\'b5\'a5 \'b5\'bf\'c0\'cf\'c7\'d1 \'b5\'a5\'c0\'cc\'c5\'cd\'b4\'c2 \'c7\'d1 \'b9\'f8\'b8\'b8 \'c3\'e2\'b7\'c2\
+\
+2) UNION ALL\
+=> \'c7\'d5\'c1\'fd\'c7\'d5\'c0\'bb \'b1\'b8\'c7\'d8\'c1\'d6\'b4\'c2\'b5\'a5 \'c1\'df\'ba\'b9\'b5\'c8 \'b5\'a5\'c0\'cc\'c5\'cd\'b5\'b5 \'b8\'f0\'b5\'ce \'c3\'e2\'b7\'c2\
+\
+3) INTERSECT\
+=> \'b1\'b3\'c1\'fd\'c7\'d5\'c0\'bb \'b1\'b8\'c7\'d8\'c1\'d6\'b4\'c2 \'bf\'ac\'bb\'ea\'c0\'da : \'be\'e7\'c2\'ca\'bf\'a1 \'b0\'f8\'c5\'eb\'b5\'c8 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'e2\'b7\'c2\
+\
+4) MINUS\
+=> \'c2\'f7\'c1\'fd\'c7\'d5\'c0\'bb \'b1\'b8\'c7\'d8\'c1\'d6\'b4\'c2 \'bf\'ac\'bb\'ea\'c0\'da : \'be\'d5 \'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b8\'b8 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\
+\
+5) \'c1\'a6\'be\'e0 \'bb\'e7\'c7\'d7\
+=> BLOB, CLOB, LONG, BFILE \'c0\'da\'b7\'e1\'c7\'fc\'c0\'ba \'c1\'fd\'c7\'d5 \'bf\'ac\'bb\'ea\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d2 \'bc\'f6 \'be\'f8\'c0\'bd\
+=> \'c0\'cc \'c0\'da\'b7\'e1\'c7\'fc \'b5\'e9\'c0\'ba INDEX \'bc\'b3\'c1\'a4\'c0\'cc \'be\'c8\'b5\'c7\'b4\'c2 \'c0\'da\'b7\'e1\'c7\'fc\
+=> INDEX\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'ba\'fc\'b8\'a3\'b0\'d4 \'b0\'cb\'bb\'f6\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'bc\'b3\'c1\'a4\'c7\'d8 \'b3\'f5\'b4\'c2 \'c6\'f7\'c0\'ce\'c5\'cd\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 \'b8\'f0\'b5\'e7 DEPTNO\'b8\'a6 \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --\'c0\'cc \'b0\'e6\'bf\'ec JOIN\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 \'b3\'ca\'b9\'ab \'b8\'b9\'c0\'ba \'b5\'a5\'c0\'cc\'c5\'cd \'c1\'b6\'c7\'d5\'c0\'bb \'b8\'b8\'b5\'e7 \'c8\'c4\'bf\'a1 \'b0\'f1\'b6\'f3\'b3\'bb\'b0\'d4 \'b5\'cb\'b4\'cf\'b4\'d9.\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 UNION
+\f0\b0 \cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 DEPT\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'b0\'fa DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'b0\'f8\'c5\'eb\'c0\'b8\'b7\'ce \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2 DEPTNO\'b8\'a6 \'c1\'b6\'c8\'f1\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 INTERSECT
+\f0\b0 \cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 DEPT\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --DEPT \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b4\'c2 \'c1\'b8\'c0\'e7\'c7\'cf\'b0\'ed EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'b4\'c2 \'c1\'b8\'c0\'e7\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2 DEPTNO\'b8\'a6 \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 MINUS
+\f0\b0 \cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP  \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'b0\'fc\'b8\'ae\'c0\'da(MGR)\'b0\'a1 \'be\'c6\'b4\'d1 \'bb\'e7\'bf\'f8\'c0\'c7 \'bb\'e7\'bf\'f8\'b9\'f8\'c8\'a3(EMPNO)\'b8\'a6 \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 EMPNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 MINUS
+\f0\b0 \cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 MGR\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+10. GROUPING SETS\
+\
+=> GROUP BY\'b4\'c2 \'b1\'d7\'b7\'ec \'ba\'b0\'b7\'ce \'b9\'ad\'c0\'bb \'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'fd\
+\'c0\'cc \'c0\'fd\'c0\'ba \'c4\'c3\'b7\'b3 \'b0\'b3\'bc\'f6\'bf\'a1 \'bb\'f3\'b0\'fc\'be\'f8\'c0\'cc \'c7\'cf\'b3\'aa\'b7\'ce \'b9\'ad\'be\'ee\'c1\'dd\'b4\'cf\'b4\'d9.\
+2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'b1\'d7\'b7\'ec\'c8\'ad\'b0\'a1 \'be\'c8\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+=> GROUP BY \'c0\'fd\'bf\'a1 GROUPING SETS\'c0\'bb \'b1\'e2\'c0\'e7\'c7\'cf\'b0\'ed ()\'c7\'d1\'c5\'d7 \'c4\'c3\'b7\'b3\'c0\'cc\'b8\'a7\'c0\'bb \'bf\'a9\'b7\'af\'b0\'b3\'b8\'a6 \'b1\'e2\'c0\'e7\'c7\'cf\'b8\'e9 \'b0\'a2 \'c4\'c3\'b7\'b3 \'ba\'b0\'b7\'ce \'b9\'ad\'be\'ee\'bc\'ad \
+\'c1\'fd\'b0\'e8(\'c7\'d5\'b0\'e8, \'b0\'b3\'bc\'f6, \'c6\'f2\'b1\'d5, \'c3\'d6\'b4\'eb. \'c3\'d6\'bc\'d2, \'ba\'d0\'bb\'ea, \'c7\'a5\'c1\'d8\'c6\'ed\'c2\'f7)\'b8\'a6 \'c7\'d8\'c1\'dd\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad DEPTNO \'ba\'b0 SAL\'c0\'c7 \'c7\'d5\'b0\'e8\'bf\'cd JOB \'ba\'b0 SAL\'c0\'c7 \'c7\'d5\'b0\'e8\'b8\'a6 \'c1\'b6\'c8\'b8\'c7\'cf\'b1\'e2\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO,\cf4  \cf5 JOB,\cf4  
+\f1\b \cf7 SUM
+\f0\b0 \cf5 (SAL)\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 GROUP
+\f0\b0 \cf4  
+\f1\b \cf3 BY
+\f0\b0 \cf4  \cf5 DEPTNO,\cf4  \cf5 JOB\cf6 ;\cf0 \
+\cf2 --\'c0\'a7\'c3\'b3\'b7\'b3 \'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 DEPTNO\'bf\'cd JOB\'c0\'bb \'c7\'d5\'c4\'a3 \'b0\'cd\'c0\'bb \'b0\'a1\'c1\'f6\'b0\'ed \'b1\'d7\'b7\'ec\'c8\'ad\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO,\cf4  \cf5 JOB,\cf4  
+\f1\b \cf7 SUM
+\f0\b0 \cf5 (SAL)\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 GROUP
+\f0\b0 \cf4   
+\f1\b \cf3 BY
+\f0\b0 \cf4  
+\f1\b \cf3 GROUPING
+\f0\b0 \cf4  
+\f1\b \cf3 SETS
+\f0\b0 \cf4  \cf5 (DEPTNO,\cf4  \cf5 JOB)\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+11. \'c1\'fd\'c7\'d5 \'bf\'ac\'bb\'ea\'c0\'ba JOIN\'c0\'b8\'b7\'ce \'c0\'fc\'ba\'ce \'c7\'d8\'b0\'e1\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2\'b5\'a5 \'c1\'fd\'c7\'d5 \'bf\'ac\'bb\'ea\'c0\'b8\'b7\'ce \'c7\'d8\'b0\'e1\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'cd\'b5\'e9\'c0\'ba \'b9\'dd\'b5\'e5\'bd\'c3 \'c1\'fd\'c7\'d5\'bf\'ac\'bb\'ea\'c0\'b8\'b7\'ce \'c7\'d8\'b0\'e1\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+** Sub Query\
+\
+=> SQL \'c0\'c7 \'c0\'fd\'bf\'a1 \'c6\'f7\'c7\'d4\'b5\'c8 SQL\
+\
+1. \'bc\'ad\'ba\'ea \'c4\'f5\'b8\'ae \'c0\'db\'bc\'ba \'bd\'c3 \'c1\'d6\'c0\'c7\'c7\'d2 \'bb\'e7\'c7\'d7\
+\
+=> \'bc\'ad\'ba\'ea \'c4\'f5\'b8\'ae\'b4\'c2 \'b9\'dd\'b5\'e5\'bd\'c3 \'b0\'fd\'c8\'a3 \'be\'c8\'bf\'a1 \'c0\'db\'bc\'ba\
+=> \'bc\'ad\'ba\'ea \'c4\'f5\'b8\'ae\'b4\'c2 \'c6\'f7\'c7\'d4\'c7\'cf\'b0\'ed \'c0\'d6\'b4\'c2 \'c4\'f5\'b8\'ae\'ba\'b8\'b4\'d9 \'b8\'d5\'c0\'fa 1\'b9\'f8\'b8\'b8 \'bc\'f6\'c7\'e0\
+\
+2. \'bc\'ad\'ba\'ea \'c4\'f5\'b8\'ae \'c1\'be\'b7\'f9\
+\
+=> \'b4\'dc\'c0\'cf \'c7\'e0 \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae : \'b0\'e1\'b0\'fa\'b0\'a1 \'c7\'cf\'b3\'aa\'c0\'c7 \'c7\'e0\'c0\'ce \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae\
+=> \'b4\'d9\'c1\'df \'c7\'e0 \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae : \'b0\'e1\'b0\'fa\'b0\'a1 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'ce \'c7\'e0\'c0\'ce \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae\
+=> >, >=, <, <=, =, != \'b4\'c2 \'b4\'dc\'c0\'cf \'c7\'e0 \'bf\'ac\'bb\'ea\'c0\'da\'c0\'d4\'b4\'cf\'b4\'d9.\
+\'b4\'dc\'c0\'cf \'c7\'e0\'b0\'fa\'b8\'b8 \'ba\'f1\'b1\'b3\'b0\'a1 \'b0\'a1\'b4\'c9\
+=> \'bf\'a9\'b7\'af \'b0\'b3\'c0\'c7 \'c7\'e0\'c0\'cf \'b6\'a7\'b4\'c2 in, not in, ANY, ALL \'b0\'fa \'b0\'b0\'c0\'ba \'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'c0\'cc\'bf\'eb\
+ANY, ALL\'c0\'ba MAX\'b3\'aa MIN \'c7\'d4\'bc\'f6\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'c7\'d8\'b0\'e1\'c0\'cc \'b0\'a1\'b4\'c9\
+\
+3. \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae\'b8\'a6 \'c0\'fb\'c0\'fd\'c8\'f7 \'c0\'cc\'bf\'eb\'c7\'cf\'b8\'e9 join\'c0\'c7 \'c8\'bd\'bc\'f6\'b8\'a6 \'c1\'d9\'c0\'cf \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --DEPT\'c0\'c7 LOC\'b0\'a1 DALLAS \'c0\'ce \'bb\'e7\'bf\'f8\'c0\'c7 EMP \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 EMPNO\'bf\'cd ENAME\'c0\'bb \'c1\'b6\'c8\'b8 \cf0 \
+\cf2 --2\'b0\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'bb\'e7\'bf\'eb\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 EMPNO,\cf4  \cf5 ENAME\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP,\cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 EMP.DEPTNO\cf4  \cf5 =\cf4  \cf5 DEPT.DEPTNO\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  
+\f1\b \cf7 UPPER
+\f0\b0 \cf5 (LOC)\cf4  \cf5 =\cf4  \cf8 'DALLAS'\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+=> \'c1\'b6\'c8\'b8\'c7\'d8\'be\'df \'c7\'cf\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'cc EMPNO \'bf\'cd ENAME \'c0\'ce\'b5\'a5 \'c0\'cc 2\'b0\'b3\'c0\'c7 \'c4\'c3\'b7\'b3\'c0\'ba EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'c1\'b8\'c0\'e7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c0\'cc\'b7\'b1 \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 JOIN \'be\'f8\'c0\'cc \'c7\'d8\'b0\'e1\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c0\'cc \'8b\'9a \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'cd\'c0\'cc sub query \'c0\'d4\'b4\'cf\'b4\'d9.\
+\'c0\'cc \'b0\'e6\'bf\'ec\'bf\'a1\'b5\'b5 \'be\'e7\'c2\'ca \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1 \'b5\'bf\'c0\'cf\'c7\'d1 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'ae\'b4\'c2 \'c4\'c3\'b7\'b3\'c0\'cc \'c0\'d6\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1 \'b0\'a1\'b4\'c9\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --SUB QUERY \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'c7\'d8\'b0\'e1\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 EMPNO,\cf4  \cf5 ENAME\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  \cf5 =\cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 DEPT\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  
+\f1\b \cf7 UPPER
+\f0\b0 \cf5 (LOC)\cf4  \cf5 =\cf4  \cf8 'DALLAS'\cf5 )\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad ENAME \'c0\'cc MILLER \'c0\'ce \'bb\'e7\'bf\'f8\'b0\'fa \'b5\'bf\'c0\'cf\'c7\'d1 DEPTNO\'b8\'a6 \'b0\'a1\'c1\'f8 \'bb\'e7\'bf\'f8\'b5\'e9\'c0\'c7 ENAME\'b0\'fa SAL\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 ENAME\cf4  \cf5 !=\cf4  \cf8 'MILLER'\cf4  
+\f1\b \cf3 AND
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  \cf5 =\cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 ENAME\cf4  \cf5 =\cf4  \cf8 'MILLER'\cf5 )\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad SAL\'c0\'cc \'c6\'f2\'b1\'d5 SAL \'ba\'b8\'b4\'d9 \'b8\'b9\'c0\'ba \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 ENAME \'b0\'fa SAL\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 SAL\cf4  \cf5 >\cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  
+\f1\b \cf7 AVG
+\f0\b0 \cf5 (SAL)\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP)\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+4. \'b4\'d9\'c1\'df \'c7\'e0 \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae\
+\
+=> \'bc\'ad\'ba\'ea \'c4\'f5\'b8\'ae\'c0\'c7 \'b0\'e1\'b0\'fa\'b0\'a1 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'c7\'e0\'c0\'b8\'b7\'ce \'b8\'ae\'c5\'cf\'b5\'c7\'b4\'c2 \'b0\'e6\'bf\'ec\
+=> \'b4\'d9\'c1\'df \'c7\'e0 \'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'ad \'b4\'d9\'c1\'df \'c7\'e0 \'bc\'ad\'ba\'ea\'c4\'f5\'b8\'ae\'bf\'cd\'b4\'c2 \'ba\'f1\'b1\'b3\'b8\'a6 \'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+IN : ~ \'bf\'a1 \'bc\'d3\'c7\'d1\
+NOT IN  : ~ \'bf\'a1 \'bc\'d3\'c7\'cf\'c1\'f6 \'be\'ca\'c0\'ba\
+=> \'c0\'a7 2\'b0\'b3\'b4\'c2 =, != \'b4\'eb\'bd\'c5\'bf\'a1 \'bb\'e7\'bf\'eb\
+\
+ANY : \'c7\'cf\'b3\'aa\'b6\'f3\'b5\'b5 \'b8\'b8\'c1\'b7\'c7\'cf\'b8\'e9 - MAX\
+ALL : \'b8\'f0\'b5\'ce \'b8\'b8\'c1\'b7\'c7\'cf\'b8\'e9 - MIN\
+=> \'c0\'a7 2\'b0\'b3\'b4\'c2 >, >=, <, <= \'bf\'cd \'c7\'d4\'b2\'b2 \'bb\'e7\'bf\'eb - MAX \'bf\'cd MIn\'c0\'bb \'c0\'fb\'c0\'fb\'c8\'f7 \'c0\'cc\'bf\'eb\'c7\'cf\'b8\'e9 ANY \'bf\'cd ALL \'be\'f8\'c0\'cc\'b5\'b5 \'c7\'d8\'b0\'e1 \'b0\'a1\'b4\'c9\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad SAL\'c0\'cc 3000 \'c0\'cc\'bb\'f3\'c0\'ce \'bb\'e7\'bf\'f8\'b0\'fa \'b5\'bf\'c0\'cf\'c7\'d1 DEPTNO\'b8\'a6 \'b0\'a1\'c1\'f8 \'ba\'ce\'bc\'ad\'bf\'a1 \'b1\'d9\'b9\'ab\'c7\'cf\'b4\'c2 \'bb\'e7\'bf\'f8\'c0\'c7 ENAME, SAL, DEPTNO\'b8\'a6 \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --SAL\'c0\'cc 3000\'c0\'cc\'bb\'f3\'c0\'ce \'bb\'e7\'bf\'f8\'c0\'c7 \'ba\'ce\'bc\'ad\'b9\'f8\'c8\'a3\'b0\'a1 10, 20 2\'b0\'b3\'b6\'f3\'bc\'ad \'b4\'dc\'c0\'cf\'c7\'e0 \'bf\'ac\'bb\'ea\'c0\'da\'b7\'ce\'b4\'c2 \'c7\'d8\'b0\'e1 \'c7\'d2 \'bc\'f6 \'be\'f8\'c0\'bd\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL,\cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  \cf5 =\cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  
+\f1\b \cf3 DISTINCT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 SAL\cf4  \cf5 >=\cf4  \cf9 3000\cf5 )\cf6 ;\cf0 \
+=> \'c0\'a7 \'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 DEPTNO \'b0\'a1 10, 20 2\'b0\'b3 \'c0\'cc\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'bf\'c0\'b7\'f9\'b0\'a1 \'b9\'df\'bb\'fd\
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL,\cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  
+\f1\b \cf3 IN
+\f0\b0 \cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  
+\f1\b \cf3 DISTINCT
+\f0\b0 \cf4  \cf5 DEPTNO\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 SAL\cf4  \cf5 >=\cf4  \cf9 3000\cf5 )\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 --EMP \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad DEPTNO\'b0\'a1 30\'c0\'ce \'bb\'e7\'bf\'f8\'b5\'e9 \'c0\'fc\'c3\'bc\'ba\'b8\'b4\'d9 SAL\'c0\'cc \'b8\'b9\'c0\'ba \'bb\'e7\'bf\'f8\'c0\'c7 ENAME \'b0\'fa SAL\'c0\'bb \'c1\'b6\'c8\'b8\cf0 \
+\cf2 --DEPTNO\'b0\'a1 30\'b9\'f8 \'c0\'ce \'bb\'e7\'bf\'f8\'c0\'cc \'c7\'d1 \'b8\'ed\'c0\'cc \'be\'c6\'b4\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 SAL\'c0\'bb \'c1\'b6\'c8\'b8\'c7\'cf\'b8\'e9 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'b8\'ae\'c5\'cf\cf0 \
+\cf2 --\'b4\'dc\'bc\'f8\'c7\'cf\'b0\'d4 > \'b7\'ce \'ba\'f1\'b1\'b3\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 \'c0\'cc\'c0\'fc\'bf\'a1 \'b9\'df\'bb\'fd\'c7\'df\'b4\'f8 \'bf\'a1\'b7\'af\'c3\'b3\'b7\'b3 >\'b4\'c2 2\'b0\'b3 \'c0\'cc\'bb\'f3\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'cd \'ba\'f1\'b1\'b3\'c7\'d2 \'bc\'f6 \'be\'f8\'b4\'d9\'b0\'ed \'bf\'a1\'b7\'af\'b0\'a1 \'b9\'df\'bb\'fd\'c7\'d5\'b4\'cf\'b4\'d9.\cf0 \
+\cf2 --\'c0\'cc \'b6\'a7\'b4\'c2 > \'bf\'a1 ALL\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'c7\'d8\'b0\'e1\'c0\'cc \'b0\'a1\'b4\'c9\cf0 \
+\cf2 --MAX(SAL) \'ba\'b8\'b4\'d9 \'c4\'bf\'b5\'b5 \'b5\'cb\'b4\'cf\'b4\'d9.\cf0 \
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 SAL\cf4  \cf5 >
+\f1\b \cf3 ALL
+\f0\b0 \cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  \cf5 =\cf4  \cf9 30\cf5 )\cf6 ;\cf0 \
+\
+
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  \cf5 ENAME,\cf4  \cf5 SAL\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 SAL\cf4  \cf5 >\cf4  \cf5 (
+\f1\b \cf3 SELECT
+\f0\b0 \cf4  
+\f1\b \cf7 MAX
+\f0\b0 \cf5 (SAL)\cf0 \
+
+\f1\b \cf3 FROM
+\f0\b0 \cf4  \cf5 EMP\cf0 \
+
+\f1\b \cf3 WHERE
+\f0\b0 \cf4  \cf5 DEPTNO\cf4  \cf5 =\cf4  \cf9 30\cf5 )\cf6 ;\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+}
